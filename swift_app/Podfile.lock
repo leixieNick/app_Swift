@@ -1,18 +1,22 @@
 PODS:
+  - ESTabBarController-swift (2.8.0)
   - SwiftMessages (8.0.3):
     - SwiftMessages/App (= 8.0.3)
   - SwiftMessages/App (8.0.3)
 
 DEPENDENCIES:
+  - ESTabBarController-swift (~> 2.8.0)
   - SwiftMessages (~> 8.0.3)
 
 SPEC REPOS:
   trunk:
+    - ESTabBarController-swift
     - SwiftMessages
 
 SPEC CHECKSUMS:
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
   SwiftMessages: 063ec9ffea3ffa7d17ba595157a9ec78e4fe045f
 
-PODFILE CHECKSUM: 3e28ca8e486fd7fe2eacb2d8f0720b2aa92e8905
+PODFILE CHECKSUM: 9342f61e7586d1a04926435ea09f35eb5f37caab
 
 COCOAPODS: 1.9.3

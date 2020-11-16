@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F8E3F9125627E0100FD2A4A /* LXTabBarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E3F9025627E0100FD2A4A /* LXTabBarProvider.swift */; };
+		4F8E3FA525627F3300FD2A4A /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E3FA425627F3300FD2A4A /* ExampleViewController.swift */; };
+		4F8E3FAA256280BD00FD2A4A /* LBFMAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E3FA9256280BD00FD2A4A /* LBFMAssets.xcassets */; };
+		4F8E3FAF2562814A00FD2A4A /* LXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E3FAE2562814A00FD2A4A /* LXNavigationController.swift */; };
 		4FC6AEFA254AC0B400CA2CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AEF9254AC0B400CA2CAC /* AppDelegate.swift */; };
 		4FC6AEFC254AC0B400CA2CAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AEFB254AC0B400CA2CAC /* SceneDelegate.swift */; };
 		4FC6AEFE254AC0B400CA2CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AEFD254AC0B400CA2CAC /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F8E3F9025627E0100FD2A4A /* LXTabBarProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXTabBarProvider.swift; sourceTree = "<group>"; };
+		4F8E3FA425627F3300FD2A4A /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		4F8E3FA9256280BD00FD2A4A /* LBFMAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LBFMAssets.xcassets; sourceTree = "<group>"; };
+		4F8E3FAE2562814A00FD2A4A /* LXNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXNavigationController.swift; sourceTree = "<group>"; };
 		4FC6AEF6254AC0B400CA2CAC /* swift_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC6AEF9254AC0B400CA2CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FC6AEFB254AC0B400CA2CAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,8 +95,41 @@
 				5CF2F188B2B222827DAD9312 /* Pods-swift_app.debug.xcconfig */,
 				EFB275E309A6EAEC93B21470 /* Pods-swift_app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4F8E3F8E25627DA800FD2A4A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F8E3FB32562829D00FD2A4A /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4F8E3F8F25627DB000FD2A4A /* NavAndTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				4F8E3F9025627E0100FD2A4A /* LXTabBarProvider.swift */,
+				4F8E3FAE2562814A00FD2A4A /* LXNavigationController.swift */,
+			);
+			path = NavAndTabbar;
+			sourceTree = "<group>";
+		};
+		4F8E3F9825627EF500FD2A4A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F8E3FA425627F3300FD2A4A /* ExampleViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4F8E3FB32562829D00FD2A4A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4F8E3F9825627EF500FD2A4A /* ViewController */,
+				4F8E3F8F25627DB000FD2A4A /* NavAndTabbar */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		4FC6AEED254AC0B400CA2CAC = {
@@ -116,11 +157,13 @@
 		4FC6AEF8254AC0B400CA2CAC /* swift_app */ = {
 			isa = PBXGroup;
 			children = (
+				4F8E3F8E25627DA800FD2A4A /* Classes */,
 				4FC6AEF9254AC0B400CA2CAC /* AppDelegate.swift */,
 				4FC6AEFB254AC0B400CA2CAC /* SceneDelegate.swift */,
 				4FC6AEFD254AC0B400CA2CAC /* ViewController.swift */,
 				4FC6AEFF254AC0B400CA2CAC /* Main.storyboard */,
 				4FC6AF02254AC0B700CA2CAC /* Assets.xcassets */,
+				4F8E3FA9256280BD00FD2A4A /* LBFMAssets.xcassets */,
 				4FC6AF04254AC0B700CA2CAC /* LaunchScreen.storyboard */,
 				4FC6AF07254AC0B700CA2CAC /* Info.plist */,
 			);
@@ -217,6 +260,7 @@
 		4FC6AEEE254AC0B400CA2CAC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LX;
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
@@ -261,6 +305,7 @@
 				4FC6AF06254AC0B700CA2CAC /* LaunchScreen.storyboard in Resources */,
 				4FC6AF03254AC0B700CA2CAC /* Assets.xcassets in Resources */,
 				4FC6AF01254AC0B400CA2CAC /* Main.storyboard in Resources */,
+				4F8E3FAA256280BD00FD2A4A /* LBFMAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,9 +372,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F8E3F9125627E0100FD2A4A /* LXTabBarProvider.swift in Sources */,
+				4F8E3FAF2562814A00FD2A4A /* LXNavigationController.swift in Sources */,
 				4FC6AEFE254AC0B400CA2CAC /* ViewController.swift in Sources */,
 				4FC6AEFA254AC0B400CA2CAC /* AppDelegate.swift in Sources */,
 				4FC6AEFC254AC0B400CA2CAC /* SceneDelegate.swift in Sources */,
+				4F8E3FA525627F3300FD2A4A /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
