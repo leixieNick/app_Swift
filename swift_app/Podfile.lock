@@ -1,22 +1,28 @@
 PODS:
   - ESTabBarController-swift (2.8.0)
+  - Kingfisher (5.15.7):
+    - Kingfisher/Core (= 5.15.7)
+  - Kingfisher/Core (5.15.7)
   - SwiftMessages (8.0.3):
     - SwiftMessages/App (= 8.0.3)
   - SwiftMessages/App (8.0.3)
 
 DEPENDENCIES:
   - ESTabBarController-swift (~> 2.8.0)
+  - Kingfisher (~> 5.15.7)
   - SwiftMessages (~> 8.0.3)
 
 SPEC REPOS:
   trunk:
     - ESTabBarController-swift
+    - Kingfisher
     - SwiftMessages
 
 SPEC CHECKSUMS:
   ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  Kingfisher: 6e1a13523fcb1c86924ce53affe4ac957e544d59
   SwiftMessages: 063ec9ffea3ffa7d17ba595157a9ec78e4fe045f
 
-PODFILE CHECKSUM: 9342f61e7586d1a04926435ea09f35eb5f37caab
+PODFILE CHECKSUM: a2b6a148ebf15d9e3b2223815a664eb7edd680ff
 
 COCOAPODS: 1.9.3

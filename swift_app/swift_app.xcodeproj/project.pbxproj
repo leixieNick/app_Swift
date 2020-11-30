@@ -11,6 +11,14 @@
 		4F8E3FA525627F3300FD2A4A /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E3FA425627F3300FD2A4A /* ExampleViewController.swift */; };
 		4F8E3FAA256280BD00FD2A4A /* LBFMAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8E3FA9256280BD00FD2A4A /* LBFMAssets.xcassets */; };
 		4F8E3FAF2562814A00FD2A4A /* LXNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8E3FAE2562814A00FD2A4A /* LXNavigationController.swift */; };
+		4FA053C0257490B400A3B9C9 /* LXFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA053BF257490B400A3B9C9 /* LXFindViewController.swift */; };
+		4FA053C92574933700A3B9C9 /* LXHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA053C82574933700A3B9C9 /* LXHeader.swift */; };
+		4FA053CF257499F400A3B9C9 /* LXAlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA053CE257499F400A3B9C9 /* LXAlgorithmViewController.swift */; };
+		4FA053DE25749EE200A3B9C9 /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA053D825749EE200A3B9C9 /* WRNavigationBar.swift */; };
+		4FA053DF25749EE200A3B9C9 /* WRCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA053D925749EE200A3B9C9 /* WRCustomNavigationBar.swift */; };
+		4FA053E025749EE200A3B9C9 /* WRProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA053DB25749EE200A3B9C9 /* WRProxy.swift */; };
+		4FA053E125749EE200A3B9C9 /* WRCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA053DC25749EE200A3B9C9 /* WRCycleScrollView.swift */; };
+		4FA053E225749EE200A3B9C9 /* WRCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA053DD25749EE200A3B9C9 /* WRCycleCell.swift */; };
 		4FC6AEFA254AC0B400CA2CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AEF9254AC0B400CA2CAC /* AppDelegate.swift */; };
 		4FC6AEFC254AC0B400CA2CAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AEFB254AC0B400CA2CAC /* SceneDelegate.swift */; };
 		4FC6AEFE254AC0B400CA2CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC6AEFD254AC0B400CA2CAC /* ViewController.swift */; };
@@ -44,6 +52,14 @@
 		4F8E3FA425627F3300FD2A4A /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		4F8E3FA9256280BD00FD2A4A /* LBFMAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = LBFMAssets.xcassets; sourceTree = "<group>"; };
 		4F8E3FAE2562814A00FD2A4A /* LXNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXNavigationController.swift; sourceTree = "<group>"; };
+		4FA053BF257490B400A3B9C9 /* LXFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXFindViewController.swift; sourceTree = "<group>"; };
+		4FA053C82574933700A3B9C9 /* LXHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXHeader.swift; sourceTree = "<group>"; };
+		4FA053CE257499F400A3B9C9 /* LXAlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LXAlgorithmViewController.swift; sourceTree = "<group>"; };
+		4FA053D825749EE200A3B9C9 /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		4FA053D925749EE200A3B9C9 /* WRCustomNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCustomNavigationBar.swift; sourceTree = "<group>"; };
+		4FA053DB25749EE200A3B9C9 /* WRProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRProxy.swift; sourceTree = "<group>"; };
+		4FA053DC25749EE200A3B9C9 /* WRCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleScrollView.swift; sourceTree = "<group>"; };
+		4FA053DD25749EE200A3B9C9 /* WRCycleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRCycleCell.swift; sourceTree = "<group>"; };
 		4FC6AEF6254AC0B400CA2CAC /* swift_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC6AEF9254AC0B400CA2CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FC6AEFB254AC0B400CA2CAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +117,7 @@
 		4F8E3F8E25627DA800FD2A4A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4FA053BD2574908200A3B9C9 /* 单项列表 */,
 				4F8E3FB32562829D00FD2A4A /* Main */,
 			);
 			path = Classes;
@@ -126,10 +143,73 @@
 		4F8E3FB32562829D00FD2A4A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4FA053D625749EBD00A3B9C9 /* Libs */,
+				4FA053C72574932500A3B9C9 /* Common */,
 				4F8E3F9825627EF500FD2A4A /* ViewController */,
 				4F8E3F8F25627DB000FD2A4A /* NavAndTabbar */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		4FA053BD2574908200A3B9C9 /* 单项列表 */ = {
+			isa = PBXGroup;
+			children = (
+				4FA053BE2574909700A3B9C9 /* Controller */,
+				4FA053CD2574994000A3B9C9 /* 算法 */,
+			);
+			path = "单项列表";
+			sourceTree = "<group>";
+		};
+		4FA053BE2574909700A3B9C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FA053BF257490B400A3B9C9 /* LXFindViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4FA053C72574932500A3B9C9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4FA053C82574933700A3B9C9 /* LXHeader.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4FA053CD2574994000A3B9C9 /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				4FA053CE257499F400A3B9C9 /* LXAlgorithmViewController.swift */,
+			);
+			path = "算法";
+			sourceTree = "<group>";
+		};
+		4FA053D625749EBD00A3B9C9 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				4FA053D725749EE200A3B9C9 /* WRNavigationBar */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		4FA053D725749EE200A3B9C9 /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				4FA053DA25749EE200A3B9C9 /* WRCycleScrollView */,
+				4FA053D825749EE200A3B9C9 /* WRNavigationBar.swift */,
+				4FA053D925749EE200A3B9C9 /* WRCustomNavigationBar.swift */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
+		4FA053DA25749EE200A3B9C9 /* WRCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4FA053DB25749EE200A3B9C9 /* WRProxy.swift */,
+				4FA053DC25749EE200A3B9C9 /* WRCycleScrollView.swift */,
+				4FA053DD25749EE200A3B9C9 /* WRCycleCell.swift */,
+			);
+			path = WRCycleScrollView;
 			sourceTree = "<group>";
 		};
 		4FC6AEED254AC0B400CA2CAC = {
@@ -372,11 +452,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA053E125749EE200A3B9C9 /* WRCycleScrollView.swift in Sources */,
+				4FA053DF25749EE200A3B9C9 /* WRCustomNavigationBar.swift in Sources */,
+				4FA053DE25749EE200A3B9C9 /* WRNavigationBar.swift in Sources */,
+				4FA053E225749EE200A3B9C9 /* WRCycleCell.swift in Sources */,
 				4F8E3F9125627E0100FD2A4A /* LXTabBarProvider.swift in Sources */,
+				4FA053E025749EE200A3B9C9 /* WRProxy.swift in Sources */,
 				4F8E3FAF2562814A00FD2A4A /* LXNavigationController.swift in Sources */,
 				4FC6AEFE254AC0B400CA2CAC /* ViewController.swift in Sources */,
+				4FA053C0257490B400A3B9C9 /* LXFindViewController.swift in Sources */,
 				4FC6AEFA254AC0B400CA2CAC /* AppDelegate.swift in Sources */,
 				4FC6AEFC254AC0B400CA2CAC /* SceneDelegate.swift in Sources */,
+				4FA053C92574933700A3B9C9 /* LXHeader.swift in Sources */,
+				4FA053CF257499F400A3B9C9 /* LXAlgorithmViewController.swift in Sources */,
 				4F8E3FA525627F3300FD2A4A /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
