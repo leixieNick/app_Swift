@@ -4,6 +4,7 @@ target 'swift_app' do
 pod 'SwiftMessages', '~> 8.0.3'
 pod 'ESTabBarController-swift', '~> 2.8.0'
 pod 'Kingfisher', '~> 5.15.7'
+pod 'AliPlayerSDK_iOS'
 
 end
 
