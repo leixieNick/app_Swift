@@ -8,8 +8,13 @@
 import UIKit
 
 class LXAlgorithmViewController: UIViewController {
-    public let sectionTitleArray = ["数组", "字符串", "Remind", "Remind", "Remind", "Remind", "Remind"]
+    public let sectionTitleArray = ["谦谦君子修罗刀", "数组", "字符串", "Remind", "Remind", "Remind", "Remind", "Remind"]
     public let titleArray = [
+        [
+            "反转链表",
+            "快速排序",
+            "冒泡排序",
+        ],
         [
             "如何在有序数组中找出和等于给定值的两个元素？",
             "如何合并两个有序的数组之后保持有序？"
@@ -109,24 +114,175 @@ extension LXAlgorithmViewController: UITableViewDataSource, UITableViewDelegate 
     
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
         switch indexPath.section {
+        // 我与面试官有个约会
         case 0:
             switch indexPath.row {
             case 0:
-                print(twoSum([2,7,11,15], 9))
+                print("反转链表")
             case 1:
-                print(twoSum([2,7,11,15], 9))
+                print("快速排序")
+            case 2:
+                print("冒泡排序")
+            case 3:
+                print("斐波那契数列")
+            case 4:
+                print("链表是否有环")
+            case 5:
+                print("字符串反转")
+            case 6:
+                print("字符串回文")
+            case 7:
+                print("合并两个有序数组")
+            case 8:
+                print("二分法查找")
+            case 9:
+                print("查找两个父视图的共同子视图")
+            case 10:
+                print("找出一万个里面前七位")
+            case 11:
+                print("三十六个跑道找出跑得最快的3匹马")
             
             default:
                 break
             }
-            
+          
+        // 数组
+        case 1:
+            switch indexPath.row {
+            case 0:
+                print(twoSum([1, 3, 6, 9, 12], 12))
+            default:
+                break
+            }
+        
+        // 字符串
+        
+        // 止
         default:
             break
         }
-        
     }
 }
+
+// 我与面试官有个约会
+extension LXAlgorithmViewController {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 88. 合并两个有序数组
 // 给你两个有序整数数组 nums1 和 nums2，请你将 nums2 合并到 nums1 中，使 nums1 成为一个有序数组。
